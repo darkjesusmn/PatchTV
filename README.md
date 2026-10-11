@@ -1,5 +1,5 @@
 <img width="1254" height="1254" alt="PatchTV Raccoon Lounge Logo" src="https://github.com/user-attachments/assets/40776525-17f1-4b60-ba7f-adec25443a8b" />
-# patchTV
+## patchTV
 
 **Free, portable IPTV and live TV for Windows — built to make finding and watching channels simple.**
 
