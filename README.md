@@ -4,7 +4,7 @@
 
 **Free, portable IPTV and live TV for Windows — built to make finding and watching channels simple.**
 
-> **Release documented:** patchTV 3.2.22 (Windows x64)  
+> **Release documented:** patchTV 3.2.31 (Windows x64)  
 > **Status:** Actively developed; streaming availability varies by provider and region.  
 > **Platform:** Windows 10/11, 64-bit.
 
