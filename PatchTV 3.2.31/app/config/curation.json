@@ -1,0 +1,263 @@
+{
+  "MaximumChannels": 0,
+  "BlockedNames": "\\b(church|christian|catholic|bible|gospel|ministry|worship|sermon|shopping|qvc|hsn|jewelry|government|civic|public access|community access|municipal|school board|city council|parliament|legislative|radio|security cam|webcam|backup|surveillance)\\b|\\btest (stream|channel|signal)\\b|^test$",
+  "BlockedPremium": "\\b(HBO|Cinemax|Showtime|Starz|Encore|Epix|ESPN|NFL Network|NBA TV|MLB Network|NHL Network)\\b|\\bMGM\\+",
+  "BlockedHosts": [
+    "cammonitorplus.com",
+    "aynascope.net",
+    "aynaott.com",
+    "rezofoot.com",
+    "ioapk.com",
+    "random.host",
+    "localhost"
+  ],
+  "PreferredNames": "Pluto|Plex|Tubi|Samsung TV Plus|Xumo|Roku|FilmRise|Cinevault|MovieSphere|Film Detective|Maverick|Gravitas|Comet|Charge|Grit|Bounce|Laff|MeTV|Movies!|\\bION\\b|Court TV|PBS|NASA|WeatherNation|AccuWeather|NBC News|CBS News|ABC News|BBC News|Sky News|Bloomberg|Reuters|Tastemade|Vevo|Stingray|beIN SPORTS XTRA|Fubo Sports|Rally TV|Racer|RetroCrush|Anime All Day|Shout|Midnight Pulp|MST3K|RiffTrax|Star Trek|Stargate|Doctor Who|X-Files|Bonanza|Gunsmoke|Andy Griffith|Perry Mason|Little House|MASH|M\\*A\\*S\\*H|Carol Burnett|Johnny Carson|Rifleman|Rawhide|Lone Ranger|Beverly Hillbillies|Westerns?|War Movies|Military Movies|Classic Movies|Classic Cinema|Gun Talk|Shooting USA|Firearms|Zombie|Walking Dead|PowerNation|MotorTrend|History|Discovery|National Geographic|MTV|VH1|Comedy Central",
+  "Categories": [
+    {
+      "Name": "01 Minnesota Local",
+      "Pattern": "Minnesota|Minneapolis|Saint Paul|St\\. Paul|Twin Cities|Duluth|Rochester|Mankato|Maple Grove|KMSP|WCCO|KARE|KSTP|KTCA|KTCI|CCX",
+      "Priority": 100,
+      "FallbackCategories": []
+    },
+    {
+      "Name": "02 News",
+      "Pattern": "News|NBC News|CBS News|ABC News|BBC News|Sky News|Bloomberg|Reuters|Scripps|Cheddar|LiveNOW|Live Now|Al Jazeera English|France 24 English|Yahoo Finance|Newsmax|Euronews English|CBC News|DW English|TRT World|CNA",
+      "Priority": 100,
+      "FallbackCategories": [
+        "news",
+        "business"
+      ]
+    },
+    {
+      "Name": "03 Weather",
+      "Pattern": "Weather|WeatherNation|AccuWeather|Storm|Radar|Forecast",
+      "Priority": 120,
+      "FallbackCategories": [
+        "weather"
+      ]
+    },
+    {
+      "Name": "04 Movies - Action",
+      "Pattern": "Action|Western|Grit|Charge|Combat|Maverick",
+      "Priority": 90,
+      "FallbackCategories": []
+    },
+    {
+      "Name": "05 Movies - Comedy",
+      "Pattern": "Comedy Movies|Rom Com|Romantic Comedy|Movie.*Comedy",
+      "Priority": 100,
+      "FallbackCategories": []
+    },
+    {
+      "Name": "06 Movies - Horror",
+      "Pattern": "Horror|Scream|Fear|Terror|Halloween|Monsters|Thriller|Dark Matter|Screambox|Watch It Scream|American Horrors|Zombie|Zombies|Walking Dead|Night of the Living Dead|Dawn of the Dead",
+      "Priority": 108,
+      "FallbackCategories": []
+    },
+    {
+      "Name": "07 Movies - Sci-Fi",
+      "Pattern": "Sci[- ]?Fi|Science Fiction|Comet|DUST|Space|Alien|Fantasy|Geek|Star Trek|Stargate|Doctor Who|The X-Files|X-Files|Battlestar|Babylon 5|Farscape|Outer Limits",
+      "Priority": 107,
+      "FallbackCategories": []
+    },
+    {
+      "Name": "08 Movies - Christmas",
+      "Pattern": "Christmas|Holiday|Xmas|Hallmark",
+      "Priority": 130,
+      "FallbackCategories": []
+    },
+    {
+      "Name": "09 Movies - Classics",
+      "Pattern": "Classic.*Movie|Classic.*Film|Film Detective|Cinevault|Golden Age|Movies!",
+      "Priority": 50,
+      "FallbackCategories": []
+    },
+    {
+      "Name": "10 Movies - General",
+      "Pattern": "Movie|Movies|Film|Cinema|Cine|Flix|Flicks|Pluto.*Movie|Plex.*Movie|Tubi.*Movie|Roku.*Movie|Xumo.*Movie|Samsung.*Movie|FilmRise|Cinevault|Maverick|Gravitas|Hallmark|Bounce|Grit",
+      "Priority": 10,
+      "FallbackCategories": [
+        "movies"
+      ]
+    },
+    {
+      "Name": "11 TV Shows - Crime",
+      "Pattern": "Crime|Cops|Forensic|Mystery|Unsolved|Detective|Law & Order|CSI|NCIS|Blue Bloods|Cold Case|Investigation|Court TV|True Crime|Midsomer",
+      "Priority": 100,
+      "FallbackCategories": []
+    },
+    {
+      "Name": "12 TV Shows - Sitcoms",
+      "Pattern": "Sitcom|Comedy|Cheers|Frasier|Raymond|Roseanne|MASH|M\\*A\\*S\\*H|SNL|Baywatch|Just for Laughs|Johnny Carson|Carol Burnett",
+      "Priority": 100,
+      "FallbackCategories": [
+        "comedy"
+      ]
+    },
+    {
+      "Name": "13 TV Shows - Reality",
+      "Pattern": "Reality|Pawn|Storage|Kitchen Nightmares|Hell's Kitchen|Deal Zone|Project Runway|Duck Dynasty|Ice Road|Dog the Bounty|Survivor|Baywatch|Rescue|MTV Catfish|MTV Dating|MTV Reality|MTV Ridiculousness|MTV Teen Mom|MTV Jersey Shore|MTV The Hills|MTV Ex On The Beach|VH1 Queens",
+      "Priority": 114,
+      "FallbackCategories": [
+        "series",
+        "entertainment",
+        "lifestyle"
+      ]
+    },
+    {
+      "Name": "14 TV Shows - Game Shows",
+      "Pattern": "Game Show|Game Shows|Deal or No Deal|Family Feud|Price Is Right|Wipeout|Buzzr|Fear Factor",
+      "Priority": 100,
+      "FallbackCategories": []
+    },
+    {
+      "Name": "15 TV Shows - Classic TV",
+      "Pattern": "Classic TV|Retro TV|MeTV|Antenna|Bonanza|Gunsmoke|Andy Griffith|Perry Mason|Little House|Twilight Zone|Doctor Who|Star Trek|Stargate|MASH|M\\*A\\*S\\*H|Dragnet|Carol Burnett|Johnny Carson|The Rifleman|Rawhide|Wanted Dead or Alive|The Lone Ranger|The Beverly Hillbillies|I Love Lucy|Beverly Hills 90210|Happy Days|Family Ties|Family Affair|Leave It to Beaver|Dick Van Dyke|Mary Tyler Moore|Bob Newhart|Sanford|Good Times|The Jeffersons|Dallas|Dynasty|The A.Team|Knight Rider|MacGyver|Matlock|Murder.She.Wrote|Mission.Impossible|Classic Sitcom|Classic Comedy",
+      "Priority": 115,
+      "FallbackCategories": [
+        "classic"
+      ]
+    },
+    {
+      "Name": "16 Sports",
+      "Pattern": "Sports|Fubo Sports|NBC Sports|beIN SPORTS|Rally TV|Racer|Poker|PGA|Golf|Tennis|FIFA|Soccer|Football|Baseball|Hockey|Basketball|Fight|MMA|Boxing|Wrestling|Motorsport|Racing|Unbeaten|SportsGrid",
+      "Priority": 100,
+      "FallbackCategories": [
+        "sports"
+      ]
+    },
+    {
+      "Name": "17 Science",
+      "Pattern": "Science|NASA|Curiosity|Engineering|Technology|Physics|Astronomy|Magellan|Xplore",
+      "Priority": 100,
+      "FallbackCategories": [
+        "science",
+        "education"
+      ]
+    },
+    {
+      "Name": "18 History",
+      "Pattern": "History|Military|WWII|World War|Ancient|Archaeology|Timeline|Smithsonian|Docurama|Discovery Channel|History Channel",
+      "Priority": 100,
+      "FallbackCategories": [
+        "history",
+        "documentary"
+      ]
+    },
+    {
+      "Name": "19 Nature",
+      "Pattern": "Nature|Animals|Wild|Wildlife|Earth|Ocean|Sea|Shark|Zoo|Animal|Love Nature|WildEarth|National Park|Adventure|National Geographic|Nat.?Geo",
+      "Priority": 100,
+      "FallbackCategories": [
+        "nature"
+      ]
+    },
+    {
+      "Name": "20 Kids",
+      "Pattern": "Kids|Cartoon|Toon|Kartoon|PBS Kids|BabyFirst|Ryan|Lego|Family|Animation|Nick|DuckTV",
+      "Priority": 100,
+      "FallbackCategories": [
+        "kids",
+        "family"
+      ]
+    },
+    {
+      "Name": "21 Anime",
+      "Pattern": "Anime|RetroCrush|Crunchyroll|Yu-Gi-Oh|Yu Gi Oh|Naruto|Pokemon|Pok\u00c3\u00a9mon|Toonami|Dragon Ball|Gundam|Sailor Moon|Anime All Day|Animax|One Piece|Bleach|Beyblade|Digimon|Inazuma|Kamen Rider|Ultraman",
+      "Priority": 125,
+      "FallbackCategories": [
+        "animation"
+      ]
+    },
+    {
+      "Name": "22 Music",
+      "Pattern": "Music|Vevo|Stingray|Qello|LiveOne|LiveXLive|Country|Rock|Classic Rock|80s|90s|Jazz|Blues|Classical|Concert|K-POP|Clubbing|MTV|VH1",
+      "Priority": 100,
+      "FallbackCategories": [
+        "music"
+      ]
+    },
+    {
+      "Name": "23 Cooking",
+      "Pattern": "Cooking|Cook|Chef|Food|Tastemade|America's Test Kitchen|Test Kitchen|Bon Appetit|BBQ|Barbecue|Baking|Kitchen",
+      "Priority": 112,
+      "FallbackCategories": [
+        "cooking"
+      ]
+    },
+    {
+      "Name": "24 Travel",
+      "Pattern": "Travel|Journy|Journey|Vacation|Destination|Tiny House",
+      "Priority": 100,
+      "FallbackCategories": [
+        "travel"
+      ]
+    },
+    {
+      "Name": "25 Cars",
+      "Pattern": "\\bCars?\\b|\\bAuto\\b|Motors?|Racer|Racing|Torque|PowerNation|Mecum|Barrett|Hot Rod|Muscle|Truck|Garage",
+      "Priority": 110,
+      "FallbackCategories": [
+        "auto"
+      ]
+    },
+    {
+      "Name": "26 Outdoors",
+      "Pattern": "Outdoor|Outdoors|Hunt|Hunting|Fish|Fishing|Camping|Bushcraft|Waypoint|Pursuit|Adventure|Boat|Boating",
+      "Priority": 110,
+      "FallbackCategories": [
+        "outdoor"
+      ]
+    },
+    {
+      "Name": "27 Relaxation - Aquarium",
+      "Pattern": "Aquarium|Fish Tank|Coral|Reef",
+      "Priority": 140,
+      "FallbackCategories": []
+    },
+    {
+      "Name": "28 Relaxation - Fireplace",
+      "Pattern": "Fireplace|Fire Place|Yule Log|Campfire",
+      "Priority": 140,
+      "FallbackCategories": []
+    },
+    {
+      "Name": "29 Relaxation - Space",
+      "Pattern": "ISS|Earth From Space|Space.*Relax|Space.*Ambient|Orbit",
+      "Priority": 140,
+      "FallbackCategories": []
+    },
+    {
+      "Name": "30 Relaxation - Nature",
+      "Pattern": "Relax|Scenic|Rain Sounds|Waterfall|Northern Lights|Aurora|Nature.*Ambient",
+      "Priority": 140,
+      "FallbackCategories": [
+        "relax"
+      ]
+    },
+    {
+      "Name": "31 Movies - Westerns",
+      "Pattern": "\\bWesterns?\\b|Cowboy|Grit|Western Cinema",
+      "Priority": 135,
+      "FallbackCategories": []
+    },
+    {
+      "Name": "32 Movies - War",
+      "Pattern": "War.*Movies?|Movies?.*War|Military.*Movies?|Combat.*Movies?|War Cinema",
+      "Priority": 136,
+      "FallbackCategories": []
+    },
+    {
+      "Name": "33 Guns & Shooting",
+      "Pattern": "\\bGuns?\\b|Gun Talk|Firearms|Shooting USA|Shooting Sports|Shooting Channel",
+      "Priority": 137,
+      "FallbackCategories": []
+    },
+    {
+      "Name": "99 Uncategorized",
+      "Pattern": "",
+      "Priority": 0,
+      "FallbackCategories": []
+    }
+  ]
+}
